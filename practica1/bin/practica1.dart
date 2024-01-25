@@ -1,6 +1,6 @@
 
 
-import 'prueba.dart';
+//import 'prueba.dart';
 
 void main() {
   //suma(2,2);
@@ -45,7 +45,7 @@ enum Razas{
   pitbull(3); 
 
   const Razas(this.value);
-  final int value;
+  final int value; //final no puede cambiar 
 }
 
 listas(List<String> nombres){
@@ -74,9 +74,9 @@ print(mascotas.nombre);
 print(mascotas.raza);
   }
 
-  _datos(){
+  //_datos(){
 
-  }
+  //}
 
  static recorrido2(Mascota mascotas){
     
