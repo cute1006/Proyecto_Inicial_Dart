@@ -89,4 +89,93 @@ class ConstDatas {
 					"color": "cafe con negro",
 					"raza": "pastor aleman"
 				};
+
+
+
+        static const clasificacion = {
+    "status": 200,
+    "error": null,
+    "message": "Se han encontrado 6 registros con el parametro Valor: SICEMED|CLASIFEQ",
+    "data": [
+        {
+            "id": 12742,
+            "catalogosup": 0,
+            "codigo": "SICEMED",
+            "valor": "CATALOGOS SICEMED",
+            "descripcion": "CATALOGOS SICEMED",
+            "orden": 1,
+            "final1": 0,
+            "pasivo": false,
+            "usuarioregistro": "devuser",
+            "fecharegistro": "2023-10-31T15:03:56",
+            "usuariomodificacion": "david_loaisiga",
+            "fechamodificacion": "2023-11-22T16:32:14",
+            "childrens": [
+                {
+                    "id": 12753,
+                    "catalogosup": 12742,
+                    "codigo": "SICEMED|CLASIFEQ",
+                    "valor": "CLASIFICACION EQUIPOS",
+                    "descripcion": "CLASIFICACION EQUIPOS",
+                    "orden": 2,
+                    "final1": 0,
+                    "pasivo": false,
+                    "usuarioregistro": "david_loaisiga",
+                    "fecharegistro": "2023-11-01T16:59:46",
+                    "childrens": [
+                        {
+                            "id": 12754,
+                            "catalogosup": 12753,
+                            "codigo": "CLASIFEQ | ANALITICO",
+                            "valor": "ANALITICO",
+                            "descripcion": "ANALITICO",
+                            "orden": 1,
+                            "final1": 0,
+                            "pasivo": false,
+                            "usuarioregistro": "david_loaisiga",
+                            "fecharegistro": "2023-11-01T17:00:33"
+                        },
+                        {
+                            "id": 12755,
+                            "catalogosup": 12753,
+                            "codigo": "CLASIFEQ | DIAGN",
+                            "valor": "DIAGNOSTICO",
+                            "descripcion": "DIAGNOSTICO",
+                            "orden": 2,
+                            "final1": 0,
+                            "pasivo": false,
+                            "usuarioregistro": "david_loaisiga",
+                            "fecharegistro": "2023-11-01T17:00:55"
+                        },
+                        {
+                            "id": 12756,
+                            "catalogosup": 12753,
+                            "codigo": "CLASIFEQ | TERAP",
+                            "valor": "TERAPEUTICO",
+                            "descripcion": "TERAPEUTICO",
+                            "orden": 3,
+                            "final1": 0,
+                            "pasivo": false,
+                            "usuarioregistro": "david_loaisiga",
+                            "fecharegistro": "2023-11-01T17:01:12"
+                        },
+                        {
+                            "id": 12757,
+                            "catalogosup": 12753,
+                            "codigo": "CLASIFEQ | OTROS",
+                            "valor": "OTROS",
+                            "descripcion": "OTROS",
+                            "orden": 4,
+                            "final1": 0,
+                            "pasivo": false,
+                            "usuarioregistro": "david_loaisiga",
+                            "fecharegistro": "2023-11-01T17:02:02"
+                        }
+                    ]
+                }
+            ]
+       }
+    ],
+    "paginacion": null
+  };
 }
